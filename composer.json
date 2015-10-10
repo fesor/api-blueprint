@@ -1,0 +1,26 @@
+{
+    "name": "fesor/api-blueprint-parser",
+    "description": "Api Blueprint Parser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Protko",
+            "email": "fesors@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Fesor\\ApiBlueprint\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.8",
+        "league/commonmark": "^0.11.3"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.3",
+        "henrikbjorn/phpspec-code-coverage": "^1.0"
+    }
+}
