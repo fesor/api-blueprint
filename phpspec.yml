@@ -1,0 +1,15 @@
+suites:
+    api_blueprint_suite:
+        namespace: Fesor\ApiBlueprint
+        psr4_prefix: Fesor\ApiBlueprint
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+  format:
+    - html
+    - clover
+  output:
+    html: coverage
+    clover: coverage.xml
